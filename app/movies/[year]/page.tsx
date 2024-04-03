@@ -36,7 +36,7 @@ export default async function movieByYear({ params }: { params: { year: number }
 
     return (
         <div className="py-8">
-            <h1 className="title text-green-400 text-center text-3xl font-bold mb-16">Top Movies by Metacritic in {year}</h1>
+            <h1 className="title text-green-400 text-center text-3xl font-bold mb-16">Top Movies by Metacritic in Year: {year}</h1>
             <ul className="flex flex-wrap justify-center m-0 p-0 list-none">{movieList}</ul>
         </div>
     );

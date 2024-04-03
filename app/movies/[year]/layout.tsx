@@ -1,13 +1,12 @@
 export default function MovieLayout({
     children,
-    params,
 }: {
     children: React.ReactNode
     params: {
         year: number
     }
 }) {
-    // URL -> /shop/shoes/nike-air-max-97
-    // `params` -> { tag: 'shoes', item: 'nike-air-max-97' }
+    // URL -> /movies/2005
+    // `params` -> { year: 2005 }
     return <section>{children}</section>
 }
